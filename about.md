@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Electronics Engineer from Latvia
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+With 6+ year experiance in electronics manufacturing and design.  
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[emils.sturitis@protonmail.com](mailto:emils.sturitis@protonmail.com)
