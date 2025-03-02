@@ -7,9 +7,8 @@ tags: Current sensing, current measurment, hall sensors, shunt, GMR, TMR
 ---
 
 ## Introduction
-Purpose of the Project: Briefly explain what the electronic device is and why you chose to design it.
+Purpose of the Project: To create a non-Contact current measurment device, so current waveforms could be measured without nodifying circuits.
 Overview: Provide an overview of what the post will cover, including the design goals, challenges, and the final outcome.
-Example: In this post, we’ll walk through the design and development of a custom portable power bank, covering everything from initial concept to the final prototype.
 ## Project Concept and Requirements
 Problem Statement: Define the problem that your device aims to solve or the need it fulfills.
 Target Audience: Identify who the device is for and any specific needs they might have.
@@ -35,11 +34,9 @@ Example: The PCB layout was designed to minimize the footprint while ensuring go
 ## Prototype Development
 Assembly: Describe the process of assembling the prototype, including soldering components and any challenges faced.
 Testing and Debugging: Outline the testing process, highlighting how you verified the functionality of the device and any issues encountered.
+
+![Assembled device](images/cm_1.jpeg)
 Example: After assembling the prototype, we tested it with various devices to ensure stable output voltage and current. Some issues with heat dissipation were addressed by adding heatsinks.
-## Software and Firmware (if applicable)
-Firmware Development: Discuss any firmware or software developed for the device, such as a microcontroller program to manage charging/discharging.
-User Interface: If the device includes a user interface (e.g., LED indicators, display), explain its design and functionality.
-Example: We developed firmware for an ATtiny85 microcontroller to monitor battery voltage and control the charging process.
 ## Final Testing and Validation
 Functional Testing: Summarize the results of the final testing phase, including any real-world usage scenarios.
 Performance Metrics: Provide data on key performance metrics, such as battery life, charging time, efficiency, and thermal performance.
@@ -53,10 +50,7 @@ Summary: Recap the project, highlighting the key takeaways and the overall succe
 Future Improvements: Suggest possible improvements or additional features that could be added in future versions of the device.
 Example: Overall, the custom power bank met the design objectives, but in future iterations, I would focus on reducing the overall size and improving charging speed.
 ## Resources and References
-Component Datasheets: Provide links to the datasheets of key components used in the design.
-Tools and Software: Mention the tools and software that were particularly helpful during the design process.
-Further Reading: Suggest books, articles, or videos for readers who want to learn more about the topics covered.
-Example: Datasheets for the TP4056 charging IC and the chosen Li-ion battery can be found here. 
+
  [Weston Braun Github](https://github.com/westonb/little-bee-B1)
 
 ## Tags and Categories
