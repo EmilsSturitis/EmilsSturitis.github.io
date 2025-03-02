@@ -35,7 +35,7 @@ Example: The PCB layout was designed to minimize the footprint while ensuring go
 Assembly: Describe the process of assembling the prototype, including soldering components and any challenges faced.
 Testing and Debugging: Outline the testing process, highlighting how you verified the functionality of the device and any issues encountered.
 
-![Assembled device](images/cm_1.jpeg)
+![Assembled device](/images/cm_1.jpeg)
 Example: After assembling the prototype, we tested it with various devices to ensure stable output voltage and current. Some issues with heat dissipation were addressed by adding heatsinks.
 ## Final Testing and Validation
 Functional Testing: Summarize the results of the final testing phase, including any real-world usage scenarios.
