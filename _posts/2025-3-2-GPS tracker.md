@@ -41,11 +41,14 @@ The sensor used is Bosch BMI323 with I2C interface
 ![IMU circuit](/images/GPS-tracker_1.png)
 
 ## Altimeter
+The sensor used is TE MS580301-BA01-00.
 
+![Altimeter sensor](/images/GPS-tracker_2.png)
 ## Pushbuttons and leds
 
 ## Battery protection and charging
-
+The IC used is TI BQ24072RGT. 
+![Battery charging](/images/GPS-tracker_3.png)
 
 # PCB Layout
 PCB Design: Show the PCB layout and discuss the considerations for component placement, trace routing, and thermal management.
