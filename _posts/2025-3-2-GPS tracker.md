@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GPS tracker for activity review
-date: 2024-09-11
+date: 2024-11-09
 categories: blogging
 tags: GPS, GNSS, activity
 --- 
