@@ -32,17 +32,21 @@ The goal of this project is:
         6.1. 6 axis IMU  
         6.2. Altimeter sensor  
 
-    
-# Research and Planning
-Market Research: Discuss any existing devices on the market and how your design will differ or improve upon them.
-Component Selection: Detail the research process for selecting components, such as batteries, charging circuits, voltage regulators, and connectors.
-Design Tools: Mention the software and tools used for design, simulation, and PCB layout (e.g., KiCad, Eagle, LTSpice).
-Example: We compared various Li-ion batteries based on capacity, weight, and cost. After research, we selected a 10,000mAh Li-ion battery due to its balance of energy density and portability.
+
 # Schematic Design
-Circuit Design: Present the schematic of the device, explaining how each part of the circuit works.
-Key Components and Their Roles: Describe the role of major components (e.g., microcontroller, power management IC, protection circuits).
-Simulation (Optional): If applicable, include simulation results to demonstrate the circuit’s behavior under different conditions.
-Example: The schematic includes a TP4056 charging IC for safe battery charging, and a DC-DC boost converter to step up the voltage to 5V for USB output.
+## MCU and perephials
+
+## IMU
+The sensor used is Bosch BMI323 with I2C interface
+![IMU circuit](/images/GPS-tracker_1.png)
+
+## Altimeter
+
+## Pushbuttons and leds
+
+## Battery protection and charging
+
+
 # PCB Layout
 PCB Design: Show the PCB layout and discuss the considerations for component placement, trace routing, and thermal management.
 Manufacturing Constraints: Mention any design decisions influenced by the manufacturing process, such as trace width, via size, or board layer count.

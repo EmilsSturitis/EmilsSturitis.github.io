@@ -8,25 +8,21 @@ tags: Current sensing, current measurment, hall sensors, shunt, GMR, TMR
 
 ## Introduction
 Purpose of the Project: To create a non-Contact current measurment device, so current waveforms could be measured without nodifying circuits.
-Overview: Provide an overview of what the post will cover, including the design goals, challenges, and the final outcome.
-## Project Concept and Requirements
-Problem Statement: Define the problem that your device aims to solve or the need it fulfills.
-Target Audience: Identify who the device is for and any specific needs they might have.
-Design Objectives: List the key objectives, such as size, power capacity, efficiency, portability, or cost.
-Example: The goal is to design a compact, lightweight power bank capable of charging smartphones and tablets with a capacity of at least 10,000mAh.
 ## Research and Planning
 ### Market Research: the two devices which i wanted to compete with
 #### AIM-TTI i-probe 520: small size non contact current measurment brobe based on the Fluxgate magnotometer.
 (picture)
 #### Little Bee by Weston Braun: AMR based current sensor with extenal concentrator 
 (picture)
-### Component Selection: Detail the research process for selecting components, such as batteries, charging circuits, voltage regulators, and connectors.
-
+### Component Selection: 
+Sensor used Honeywell HMC1051
 ## Schematic Design
-Circuit Design: Present the schematic of the device, explaining how each part of the circuit works.
-Key Components and Their Roles: Describe the role of major components (e.g., microcontroller, power management IC, protection circuits).
-Simulation (Optional): If applicable, include simulation results to demonstrate the circuit’s behavior under different conditions.
-Example: The schematic includes a TP4056 charging IC for safe battery charging, and a DC-DC boost converter to step up the voltage to 5V for USB output.
+Circuit Design: Based on the HMC1051 datasheet and application notes by Honeywell. 
+The basic bloks are: bridge sensor measurment part and set/reset circuit
+### Sensor connection
+
+### Set/Reset 
+
 ## PCB Layout
 PCB Design: Show the PCB layout and discuss the considerations for component placement, trace routing, and thermal management.
 Manufacturing Constraints: Mention any design decisions influenced by the manufacturing process, such as trace width, via size, or board layer count.
@@ -34,7 +30,7 @@ Example: The PCB layout was designed to minimize the footprint while ensuring go
 ## Prototype Development
 Assembly: Describe the process of assembling the prototype, including soldering components and any challenges faced.
 Testing and Debugging: Outline the testing process, highlighting how you verified the functionality of the device and any issues encountered.
-
+![Rendered device](/images/cm_2.png)
 ![Assembled device](/images/cm_1.jpeg)
 Example: After assembling the prototype, we tested it with various devices to ensure stable output voltage and current. Some issues with heat dissipation were addressed by adding heatsinks.
 ## Final Testing and Validation
