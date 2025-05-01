@@ -16,11 +16,6 @@ This kind of device has been on my mind since 2019 when i first participated in 
 
 
 # Project Concept and Requirements
-Problem Statement: Define the problem that your device aims to solve or the need it fulfills.  
-Target Audience: Identify who the device is for and any specific needs they might have.
-Design Objectives: List the key objectives, such as size, power capacity, efficiency, portability, or cost.
-Example: The goal is to design a compact, lightweight power bank capable of charging smartphones and tablets with a capacity of at least 10,000mAh.
-
 
 The goal of this project is:  
     1. Device runtime for atleast 24h  
